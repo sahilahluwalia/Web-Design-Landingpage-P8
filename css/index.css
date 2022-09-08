@@ -124,3 +124,62 @@ body > div.main-div > div > div.imgs-div > img.backcover{
 }
 
 /* time=1hr */
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    nav>.nav-items{
+      display: none;
+    }
+  }
+
+
+
+
+
+
+@media screen and  (max-width:480px)  {
+    nav {
+      display: block;
+      height: 25vh;
+    }
+    nav .nav-items{
+      display: block;
+      margin-left:130px;
+      position: relative;
+      bottom:20px;
+      
+    }
+    nav img:nth-child(1) {
+      position: relative;
+      left:70px;  
+      margin-top:20px
+    }
+    nav>button{
+        margin-left:120px;
+        position: relative;
+      bottom:70px;
+    }
+    .intro-section{
+      flex-wrap: wrap;
+    }
+    .left-section{
+      margin-left: 25px;
+      
+    }
+    .left-section>h1{
+        font-size: 50px;
+    }
+    .left-section>button{
+        margin-left: 50px;
+    }
+    body > div.main-div > div > div.imgs-div > img.backcover{
+        bottom:300px;
+        left:12px;
+        position: relative;
+    }
+    body > div.main-div > div > div.imgs-div > img.vector-dot{
+        bottom:20px;
+        position: relative;
+    }
+    
+  }
